@@ -11,7 +11,7 @@ namespace KrausFamilyApp
     {
         public GreetingsPage()
         {
-            BackgroundColor = Color.Teal;
+            //BackgroundColor = Color.Teal;
 
             StackLayout stackLayout = new StackLayout
             {
@@ -22,6 +22,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Teal,
                         FormattedText = new FormattedString
 
                          {
@@ -34,7 +35,7 @@ namespace KrausFamilyApp
                                      "I must warn you, its is small but it is great! \n",
                                      FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                                      ForegroundColor = Color.Black,
-                                     BackgroundColor = Color.Teal,
+                                     
 
 
                                  }
@@ -48,8 +49,10 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
-                        FormattedText = new FormattedString
+                        BackgroundColor = Color.Pink,
 
+                        FormattedText = new FormattedString
+                        
                          {
                              Spans =
                              {
@@ -59,7 +62,7 @@ namespace KrausFamilyApp
                                      Text= "\u2003The First and most important member of my family is my mom, ",
                                      FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                                      ForegroundColor = Color.Black,
-                                     BackgroundColor = Color.Pink,
+                                     
                                  },
 
 
@@ -71,6 +74,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Pink,
                         FormattedText = new FormattedString
 
                          {
@@ -83,7 +87,7 @@ namespace KrausFamilyApp
                                      FontAttributes = FontAttributes.Bold,
                                      FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                                      ForegroundColor = Color.Black,
-                                     BackgroundColor = Color.Pink,
+                                     
 
 
                                  },
@@ -98,6 +102,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Pink,
                         FormattedText = new FormattedString
 
                          {
@@ -111,7 +116,7 @@ namespace KrausFamilyApp
                                      "She inspired me to go to college and work hard. \n" ,
                                      FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                                      ForegroundColor = Color.Black,
-                                     BackgroundColor = Color.Pink
+                                    
 
                                  },
 
@@ -125,6 +130,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Yellow,
                         FormattedText = new FormattedString
 
                          {
@@ -137,8 +143,8 @@ namespace KrausFamilyApp
                                     Text = "\u2003Next family member is the cutest one, she is one of a kind. " +
                                     "She's a loveable ball of fluff. Her name is ",
                                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
-                                    ForegroundColor = Color.White,
-                                    BackgroundColor = Color.Red
+                                    ForegroundColor = Color.Black,
+                                    
 
                                  },
 
@@ -152,6 +158,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Yellow,
                         FormattedText = new FormattedString
 
                          {
@@ -163,8 +170,8 @@ namespace KrausFamilyApp
                                     Text = "Sadie. \n\n\n" + Environment.NewLine + "",
                                     FontAttributes = FontAttributes.Bold,
                                     FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                                    ForegroundColor = Color.White,
-                                    BackgroundColor = Color.Red
+                                    ForegroundColor = Color.Black,
+                                    
 
                                  },
 
@@ -178,6 +185,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Lime,
                         FormattedText = new FormattedString
 
                          {
@@ -190,7 +198,7 @@ namespace KrausFamilyApp
                                     Text = "\u2003Another member of my family is my grandma. Her name is ",
                                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                                     ForegroundColor = Color.Black,
-                                    BackgroundColor = Color.Yellow
+                                    
 
                                  },
 
@@ -203,6 +211,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Lime,
                         FormattedText = new FormattedString
 
                          {
@@ -215,7 +224,7 @@ namespace KrausFamilyApp
                                     FontAttributes = FontAttributes.Bold,
                                     FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                                     ForegroundColor = Color.Black,
-                                    BackgroundColor = Color.Yellow
+                                    
 
                                  },
                              }
@@ -225,6 +234,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Lime,
                         FormattedText = new FormattedString
 
                          {
@@ -238,7 +248,7 @@ namespace KrausFamilyApp
                                     "She loves to sew and put puzzles together. Fun Fact about Irene, she has an identical twin sister, Iris.  \n",
                                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                                     ForegroundColor = Color.Black,
-                                    BackgroundColor = Color.Yellow
+                                    
                                  },
 
 
@@ -251,6 +261,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Red,
                         FormattedText = new FormattedString
 
                          {
@@ -274,6 +285,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Red,
                         FormattedText = new FormattedString
 
                          {
@@ -289,7 +301,7 @@ namespace KrausFamilyApp
                                      "I am very lucky to call her my cousin.  \n",
                                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                                     ForegroundColor = Color.Black,
-                                    BackgroundColor = Color.Lime
+                                    
 
                                  },
 
@@ -301,6 +313,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Purple,
                         FormattedText = new FormattedString
 
                          {
@@ -314,7 +327,7 @@ namespace KrausFamilyApp
                                      Text = "\u2003And then there is me,",
                                      FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                                      ForegroundColor = Color.Black,
-                                     BackgroundColor = Color.Purple
+                                     
                                  },
 
 
@@ -325,6 +338,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Purple,
                         FormattedText = new FormattedString
 
                          {
@@ -339,7 +353,7 @@ namespace KrausFamilyApp
                                      FontAttributes = FontAttributes.Bold,
                                      FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                                      ForegroundColor = Color.Black,
-                                     BackgroundColor = Color.Purple
+                                     
 
                                  },
 
@@ -352,6 +366,7 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
+                        BackgroundColor = Color.Purple,
                         FormattedText = new FormattedString
 
                          {
@@ -366,7 +381,7 @@ namespace KrausFamilyApp
                                     "I love my small family and can't wait to see what the future holds.",
                                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                                     ForegroundColor = Color.Black,
-                                    BackgroundColor = Color.Purple
+                                    
 
                                  }
 
