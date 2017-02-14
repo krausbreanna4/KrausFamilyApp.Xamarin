@@ -11,105 +11,164 @@ namespace KrausFamilyApp
     {
         public GreetingsPage()
         {
-            BackgroundColor = Color.Teal;
+            //BackgroundColor = Color.Teal;
 
             StackLayout stackLayout = new StackLayout
             {
                 Orientation = StackOrientation.Vertical,
                 Children =
                 {
-                     new Label
-                    {
-                        Text = "\u2003Welcome! Let me introduce you to my family."+
-                               "I must warn you, its is small but it is great! \n\n\n" + Environment.NewLine
-                              + "The first and most important member of my family is my mom, ",
-                        TextColor = Color.White,
-                        FontSize = 20
-                     },
-                  new Label
-                    {
-                        Text = "Julie",
-                        FontAttributes = FontAttributes.Bold,
-                        FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                        TextColor = Color.White
-
-                     },
-                   new Label
-                    {
-                        Text = " My mom is one of the strongest, most determined, woman I know." +
-                                "She raised me as a single parent, while continuing her education and working full time. " +
-                                "She inspired me to go to college and work hard.\n\n\n" + Environment.NewLine + ",
-                        TextColor = Color.White,
-                        FontSize = 20
-                     },
-
-                   new Label
-                    {
-                        Text = "Next family member is the cutest one, she is one of a kind. " +
-                                       "She's a loveable ball of fluff. Her name is "
-                        TextColor = Color.White,
-                        FontSize = 20
-                     },
-
                     new Label
-                            {
-                                Text = "Sadie. \n\n\n" + Environment.NewLine + "",
-                                FontAttributes = FontAttributes.Bold,
-                                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                         FormattedText = new FormattedString
+                         {
+                             Spans =
+                             {
+                                 new Span
+                                 {
+                                     Text = "\u2003Welcome! Let me introduce you to my family."+
+                                     "I must warn you, its is small but it is great! \n\n\n",
+                                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                                     ForegroundColor = Color.Black,
+                                     BackgroundColor = Color.Teal,
 
-                            },
 
-                     new Label
-                            {
-                                Text = "Another family member is my grandma "
-                            },
+                                 },
 
-                     new Label
-                            {
-                                Text = " Irene",
-                                FontAttributes = FontAttributes.Bold,
-                                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
+                                 new Span
+                                 {
+                                     Text= "\u2003The First and most important member of my family is my mom, ",
+                                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                                     ForegroundColor = Color.Black,
+                                     BackgroundColor = Color.Pink,
+                                 },
 
-                            },
+                                 new Span
+                                 {
+                                     Text = "Julie",
+                                     FontAttributes = FontAttributes.Bold,
+                                     FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                                     ForegroundColor = Color.Black,
+                                     BackgroundColor = Color.Pink,
 
-                      new Label
-                            {
-                                Text ="She loves to sew and work in her garden. She has an identical twin sister, Iris." +
-                                "They love to sew Barbie doll and American Doll clothes together."
 
-                            },
+                                 },
 
-                     new Label
-                            {
-                                Text = " Abbigail ",
-                                FontAttributes = FontAttributes.Bold,
-                                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
-                            },
+                                 new Span
+                                 {
+                                     Text = " My mom is one of the strongest, most determined, woman I know." +
+                                     "She raised me as a single parent, while continuing her education and working full time. " +
+                                     "She inspired me to go to college and work hard. \n\n\n" ,
+                                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                                     ForegroundColor = Color.Black,
+                                     BackgroundColor = Color.Pink
 
-                     new Label
-                            {
-                                Text = "She is one of the cutest babies I have ever met. She is my cousins 1st child." +
-                                "She is loved by many because she is very special. She is what is considered to be a 'Rainbow baby'" +
-                                "A rainbow baby is a baby that comes after a failed pregnancy." + "She is special to all of our family and would trade her for the world."
+                                 },
 
-                            },
+                                 new Span
+                                 {
 
-                      new Label
-                            {
-                                Text = "And then there was me,"
-                            },
-                     new Label
-                            {
-                                Text = " Breanna.",
-                                FontAttributes = FontAttributes.Bold,
-                                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
+                                    Text = "\u2003Next family member is the cutest one, she is one of a kind. " +
+                                    "She's a loveable ball of fluff. Her name is ",
+                                    FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                                    ForegroundColor = Color.White,
+                                    BackgroundColor = Color.Red
 
-                            },
-                      new Label
-                            {
-                                Text = " I'm 24 years old and have 3 half siblings that I met, online, last year." +
-                                "I love my small family and can't wait to see what the future holds."
-                            }
+                                 },
+
+                                 new Span
+                                 {
+                                    Text = "Sadie. \n\n\n" + Environment.NewLine + "",
+                                    FontAttributes = FontAttributes.Bold,
+                                    FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                                    ForegroundColor = Color.White,
+                                    BackgroundColor = Color.Red
+
+                                 },
+
+                                 new Span
+                                 {
+
+                                    Text = "\u2003Another member of my family is my grandma. Her name is ",
+                                    FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                                    ForegroundColor = Color.Black,
+                                    BackgroundColor = Color.Yellow
+
+                                 },
+
+                                 new Span
+                                 {
+                                    Text = "Irene.",
+                                    FontAttributes = FontAttributes.Bold,
+                                    FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                                    ForegroundColor = Color.Black,
+                                    BackgroundColor = Color.Yellow
+
+                                 },
+
+                                 new Span
+                                 {
+
+                                    Text = "She is my favorite grandma, and I can say that because she's the only one I've known." +
+                                    "She loves to sew and put puzzles together. Fun Fact about Irene, she has an identical twin sister, Iris.  \n\n\n",
+                                    FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                                    ForegroundColor = Color.Black,
+                                    BackgroundColor = Color.Yellow
+                                 },
+
+                                 new Span
+                                 {
+                                     Text = "\u2003Abbigail ",
+                                     FontAttributes = FontAttributes.Bold,
+                                     FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                                    ForegroundColor = Color.Black,
+                                    BackgroundColor = Color.Lime
+
+                                 },
+
+                                 new Span
+                                 {
+                                     Text = "is the 2nd cutest member of my family. She, is what some people consider, a rainbow baby." +
+                                     "A rainbow baby is a baby who has come after a miscarraige or two." + "She is one of the happiest of babies I have had the pleasure of meeting in my lifetime." +
+                                     "I am very lucky to call her my cousin.  \n\n\n",
+                                    FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                                    ForegroundColor = Color.Black,
+                                    BackgroundColor = Color.Lime
+
+                                 },
+
+                                 new Span
+                                 {
+                                     Text = "\u2003And then there is me,",
+                                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                                     ForegroundColor = Color.Black,
+                                     BackgroundColor = Color.Purple
+                                 },
+
+                                 new Span
+                                 {
+                                     Text = " Breanna.",
+                                     FontAttributes = FontAttributes.Bold,
+                                     FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                                     ForegroundColor = Color.Black,
+                                     BackgroundColor = Color.Purple
+
+                                 },
+
+                                 new Span
+                                 {
+                                    Text = " I'm 24 years old and have 3 half siblings that I met, online, last year." +
+                                    "I love my small family and can't wait to see what the future holds.",
+                                    FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                                    ForegroundColor = Color.Black,
+                                    BackgroundColor = Color.Purple
+
+                                 }
+                             }
+                         }
+                     }
 
 
                  }
