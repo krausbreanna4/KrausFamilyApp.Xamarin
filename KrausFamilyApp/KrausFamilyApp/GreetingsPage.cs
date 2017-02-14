@@ -50,6 +50,41 @@ namespace KrausFamilyApp
                             FontAttributes = FontAttributes.Bold,
                             FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                         },
+
+                        new Span
+                        {
+                            Text = "Another family member is my grandma "
+                        },
+
+                        new Span
+                        {
+                            Text = " Irene",
+                            FontAttributes = FontAttributes.Bold,
+                            FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
+                        },
+
+                        new Span
+                        {
+                            Text ="She loves to sew and work in her garden. She has an identical twin sister, Iris." +
+                            "They love to sew Barbie doll and American Doll clothes together."
+                            
+                        },
+
+                        new Span
+                        {
+                            Text = " Abbigail ",
+                            FontAttributes = FontAttributes.Bold,
+                            FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
+                        },
+
+                        new Span
+                        {
+                            Text = "She is one of the cutest babies I have ever met. She is my cousins 1st child." +
+                            "She is loved by many because she is very special. She is what is considered to be a 'Rainbow baby'" +
+                            "A rainbow baby is a baby that comes after a failed pregnancy." + "She is special to all of our family and would trade her for the world."
+
+                        },
+
                         new Span
                         {
                             Text = "And then there was me,"
@@ -58,7 +93,7 @@ namespace KrausFamilyApp
                         {
                             Text = " Breanna.",
                             FontAttributes = FontAttributes.Bold,
-                            FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                            FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
                         },
                         new Span
                         {
