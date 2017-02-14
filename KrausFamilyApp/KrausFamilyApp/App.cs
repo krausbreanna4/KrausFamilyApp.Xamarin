@@ -27,7 +27,7 @@ namespace KrausFamilyApp
                 }
             };
 
-            MainPage = new NavigationPage(content);
+            MainPage = GreetingsPage();
         }
 
         protected override void OnStart()
