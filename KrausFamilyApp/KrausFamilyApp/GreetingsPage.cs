@@ -22,14 +22,15 @@ namespace KrausFamilyApp
                      {
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
-                         FormattedText = new FormattedString
+                        FormattedText = new FormattedString
                          {
                              Spans =
                              {
+                                 
                                  new Span
                                  {
                                      Text = "\u2003Welcome! Let me introduce you to my family."+
-                                     "I must warn you, its is small but it is great! \n\n\n",
+                                     "I must warn you, its is small but it is great! \n",
                                      FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                                      ForegroundColor = Color.Black,
                                      BackgroundColor = Color.Teal,
@@ -60,7 +61,7 @@ namespace KrausFamilyApp
                                  {
                                      Text = " My mom is one of the strongest, most determined, woman I know." +
                                      "She raised me as a single parent, while continuing her education and working full time. " +
-                                     "She inspired me to go to college and work hard. \n\n\n" ,
+                                     "She inspired me to go to college and work hard. \n" ,
                                      FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                                      ForegroundColor = Color.Black,
                                      BackgroundColor = Color.Pink
@@ -112,7 +113,7 @@ namespace KrausFamilyApp
                                  {
 
                                     Text = "She is my favorite grandma, and I can say that because she's the only one I've known." +
-                                    "She loves to sew and put puzzles together. Fun Fact about Irene, she has an identical twin sister, Iris.  \n\n\n",
+                                    "She loves to sew and put puzzles together. Fun Fact about Irene, she has an identical twin sister, Iris.  \n",
                                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                                     ForegroundColor = Color.Black,
                                     BackgroundColor = Color.Yellow
@@ -132,7 +133,7 @@ namespace KrausFamilyApp
                                  {
                                      Text = "is the 2nd cutest member of my family. She, is what some people consider, a rainbow baby." +
                                      "A rainbow baby is a baby who has come after a miscarraige or two." + "She is one of the happiest of babies I have had the pleasure of meeting in my lifetime." +
-                                     "I am very lucky to call her my cousin.  \n\n\n",
+                                     "I am very lucky to call her my cousin.  \n",
                                     FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
                                     ForegroundColor = Color.Black,
                                     BackgroundColor = Color.Lime
