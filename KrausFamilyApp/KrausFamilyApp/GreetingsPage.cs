@@ -11,7 +11,7 @@ namespace KrausFamilyApp
     {
         public GreetingsPage()
         {
-            //BackgroundColor = Color.Teal;
+            BackgroundColor = Color.Teal;
 
             StackLayout stackLayout = new StackLayout
             {
@@ -23,6 +23,7 @@ namespace KrausFamilyApp
                         VerticalOptions = LayoutOptions.FillAndExpand,
                         VerticalTextAlignment = TextAlignment.End,
                         FormattedText = new FormattedString
+
                          {
                              Spans =
                              {
@@ -36,7 +37,22 @@ namespace KrausFamilyApp
                                      BackgroundColor = Color.Teal,
 
 
-                                 },
+                                 }
+
+                                 
+                             }
+                         }
+                     },
+
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
 
                                  new Span
                                  {
@@ -45,6 +61,21 @@ namespace KrausFamilyApp
                                      ForegroundColor = Color.Black,
                                      BackgroundColor = Color.Pink,
                                  },
+
+
+                             }
+                         }
+                     },
+
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
 
                                  new Span
                                  {
@@ -57,6 +88,22 @@ namespace KrausFamilyApp
 
                                  },
 
+
+
+                             }
+                         }
+                     },
+
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
+
                                  new Span
                                  {
                                      Text = " My mom is one of the strongest, most determined, woman I know." +
@@ -67,6 +114,22 @@ namespace KrausFamilyApp
                                      BackgroundColor = Color.Pink
 
                                  },
+
+
+
+                             }
+                         }
+                     },
+
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
 
                                  new Span
                                  {
@@ -79,6 +142,22 @@ namespace KrausFamilyApp
 
                                  },
 
+
+
+                             }
+                         }
+                     },
+
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
+
                                  new Span
                                  {
                                     Text = "Sadie. \n\n\n" + Environment.NewLine + "",
@@ -88,6 +167,22 @@ namespace KrausFamilyApp
                                     BackgroundColor = Color.Red
 
                                  },
+
+
+
+                             }
+                         }
+                     },
+
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
 
                                  new Span
                                  {
@@ -99,6 +194,21 @@ namespace KrausFamilyApp
 
                                  },
 
+
+                             }
+                         }
+                     },
+
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
+
                                  new Span
                                  {
                                     Text = "Irene.",
@@ -108,6 +218,18 @@ namespace KrausFamilyApp
                                     BackgroundColor = Color.Yellow
 
                                  },
+                             }
+                         }
+                     },
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
 
                                  new Span
                                  {
@@ -119,6 +241,22 @@ namespace KrausFamilyApp
                                     BackgroundColor = Color.Yellow
                                  },
 
+
+
+                             }
+                         }
+                     },
+                    
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
+
                                  new Span
                                  {
                                      Text = "\u2003Abbigail ",
@@ -128,6 +266,21 @@ namespace KrausFamilyApp
                                     BackgroundColor = Color.Lime
 
                                  },
+
+                             }
+                         }
+                     },
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
+
+
 
                                  new Span
                                  {
@@ -140,6 +293,22 @@ namespace KrausFamilyApp
 
                                  },
 
+
+                             }
+                         }
+                     },
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
+
+
+
                                  new Span
                                  {
                                      Text = "\u2003And then there is me,",
@@ -147,6 +316,22 @@ namespace KrausFamilyApp
                                      ForegroundColor = Color.Black,
                                      BackgroundColor = Color.Purple
                                  },
+
+
+                             }
+                         }
+                     },
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
+
+
 
                                  new Span
                                  {
@@ -158,6 +343,23 @@ namespace KrausFamilyApp
 
                                  },
 
+
+                             }
+                         }
+                     },
+
+                    new Label
+                     {
+                        VerticalOptions = LayoutOptions.FillAndExpand,
+                        VerticalTextAlignment = TextAlignment.End,
+                        FormattedText = new FormattedString
+
+                         {
+                             Spans =
+                             {
+
+
+
                                  new Span
                                  {
                                     Text = " I'm 24 years old and have 3 half siblings that I met, online, last year." +
@@ -167,9 +369,10 @@ namespace KrausFamilyApp
                                     BackgroundColor = Color.Purple
 
                                  }
+
                              }
                          }
-                     }
+                     },
 
 
                  }
